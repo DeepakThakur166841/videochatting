@@ -35,7 +35,7 @@ const Room = (props) => {
             userStream.current = stream;
 
             webSocketRef.current = new WebSocket(
-                `ws://https://server-webrtc.onrender.com/join?roomID=${props.match.params.roomID}`
+                `ws://https://server-webrtc.onrender.com/join?roomID=s57X8YIg`
             );
 
             webSocketRef.current.addEventListener("open", () => {
