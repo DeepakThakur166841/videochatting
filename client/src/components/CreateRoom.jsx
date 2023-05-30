@@ -7,7 +7,7 @@ const CreateRoom = (props) => {
         const resp = await fetch("https://server-webrtc.onrender.com/create");
         const { room_id } = await resp.json();
 
-		props.history.push(`/room/${room_id}`)
+		props.history.push(`/room/s57X8YIg`)
     };
 
     return (
